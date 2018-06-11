@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  position: relative;
+  background-image: url(http://mesozoic.mikelaraman.com/wp-content/uploads/2017/08/jplogotrans.png);
+  background-size: cover;
+  background-color: #E8E9C9;
+}
+
+.release-box {
+  display: flex;
+  height: 740px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.release {
+  border: 5px black solid;
+  border-radius: 5px;
+  height: 100px;
+  margin-bottom: 20px;
+  background-color: white;
+  opacity: 0.85;
+  color: green;
+  text-align: center;
+  box-shadow: 5px 5px;
+}
+
+.release:hover {
+    background-color: yellow;
+}
+
+
+p{
+  font-size: 100px;
+  font-weight: bold;
+  color: #3E3E3C;
+}
